@@ -21,6 +21,7 @@ a:hover{
 }
 
 div{
-     background-image:url("https://www.google.ie/search?rlz=1C1GGRV_enIE781IE781&tbm=isch&q=football+background&chips=q:football+background,g_2:football+field,g_1:1080p,online_chips:grass&sa=X&ved=0ahUKEwjDmd3hs-7YAhUjOsAKHUgKA9QQ4lYILygG&biw=1424&bih=775&dpr=1#imgdii=eVOND9JnBighEM:&imgrc=dQOmtV6X9F14fM:");
-     
+     background-image:url("https://wallpaperstock.net/wallpapers/thumbs1/33694hd.jpg");
+     background-repeat: repeat-x;
+     background-size: cover
 }
