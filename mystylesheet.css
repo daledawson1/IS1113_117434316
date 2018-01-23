@@ -1,8 +1,8 @@
 .mainheading{
     text-align: center;
     color: Red;
+    border: 2px solid black;
 }
-
 
 a{ 
    text-decoration: none;
@@ -13,15 +13,14 @@ a:hover{
  color:Blue;
 }
 
-.border{
-    border: 2px dotted black;
-    display:block;
-    border-style: inset;
-    border-width: 1px;
+.container{
+  padding: 150px;
+  background:url("https://i.pinimg.com/564x/f5/62/5e/f5625ebe9066c53c2ef387dfabdb6998--music-wallpaper-computer-wallpaper.jpg") no-repeat;
+    
 }
 
-div{
-     background-image:url("http://wallpaperesque.com/wp-content/uploads/plixpapers1504/just_music_wallpaper_background_34782.jpg");
-     background-repeat: repeat-x;
-     background-size: cover
-}
+
+
+
+  
+
