@@ -7,21 +7,24 @@
 a{ 
    text-decoration: none;
    color: black;
+   border: 1px solid black;
+   
 }
 
 a:hover{
  color:Blue;
 }
 
+/* this code is for the picture */
+
 .container{
-  padding: 150px;
-  background:url("https://i.pinimg.com/564x/f5/62/5e/f5625ebe9066c53c2ef387dfabdb6998--music-wallpaper-computer-wallpaper.jpg") no-repeat;
+  padding: 400px;
+  background:url("") no-repeat;
     
 }
 
 .dale{
-    max-width:30%;
-    
+    max-width:75%;
 }
 
 
