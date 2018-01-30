@@ -10,14 +10,43 @@
     color: Red;
     border: 2px solid black;
 }
-
+body {
+    font:0.75em Arial;
+}
 a{ 
    text-decoration: none;
-   color: black;
-   border: 1px solid black;
+   color: slategrey;
    
 }
 
 a:hover{
  color:Blue;
+}
+
+.button {
+    background: #ccc;
+    color: #333;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    display: inline-block;
+    border: 1px solid #aaa;
+    border-bottom: 2px solid #aaa;
+    
+    
+}
+
+.cookie_banner {
+    display: none;
+    background:#333;
+    position:fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.cookie_banner .yurt {
+    margin: 0 auto;
+    width: 70%;
+    color: #0000;
+    padding: 15px;
 }
