@@ -2,16 +2,120 @@
 
 <html>
    <head>
+       <meta charset="utf-8">
+       <meta name="viewport" content="width=device-width, initial-scale=1">
        <title>Welcome page</title> 
+        <style type="text/css">
+         
+         * {
+             margin: 0;
+             padding: 0;
+             }
+             body {
+                 background-color :#000;
+             }
+             .fly-in-text {
+                 list-style: none;
+                 position: absolute;
+                 left: 50%;
+                 top: 50%;
+                 transform: translateX(-50%) translateY(-50%);
+             }
+             .fly-in-text li {
+                 display: inline-block;
+                 margin-right: 50px;
+                 font-family: Open Sans, Arial;
+                 font-weight: 300;
+                 font-size: 4em;
+                 color: #000;
+                 opacity: 1;
+                 transition: all 2.5s ease;
+             }
+             .fly-in-text li:last-child {
+                 margin-right: 0;
+             }
+             .fly-in-text.hidden li {
+                 opacity: 0;
+             }
+             .fly-in-text.hidden li:nth-child(1) {transform: translateX(-200px) translateY(-200px);}
+             .fly-in-text.hidden li:nth-child(2) {transform: translateX(150px) translateY(100px);}
+             .fly-in-text.hidden li:nth-child(3) {transform: translateX(-20px) translateY(-55px);}
+             .fly-in-text.hidden li:nth-child(4) {transform: translateX(100px) translateY(123px);}
+             .fly-in-text.hidden li:nth-child(5) {transform: translateX(-150px) translateY(-23px);}
+             .fly-in-text.hidden li:nth-child(6) {transform: translateX(200px) translateY(66px);}
+             .fly-in-text.hidden li:nth-child(7) {transform: translateX(-40px) translateY(-15px);}
+             .fly-in-text.hidden li:nth-child(8) {transform: translateX(60px) translateY(88px);}
+             .fly-in-text.hidden li:nth-child(9) {transform: translateX(-10px) translateY(-130px);}
+             .fly-in-text.hidden li:nth-child(10) {transform: translateX(87px) translateY(59px);}
+             .fly-in-text.hidden li:nth-child(11) {transform: translateX(-90px) translateY(-44px);}
+             .fly-in-text.hidden li:nth-child(12) {transform: translateX(65px) translateY(20px);}
+             .fly-in-text.hidden li:nth-child(13) {transform: translateX(-44px) translateY(-37px);}
+             .fly-in-text.hidden li:nth-child(14) {transform: translateX(33px) translateY(2px);}
+             .fly-in-text.hidden li:nth-child(15) {transform: translateX(-68px) translateY(-88px);}
+             .fly-in-text.hidden li:nth-child(16) {transform: translateX(99px) translateY(64px);}
+             .fly-in-text.hidden li:nth-child(17) {transform: translateX(-123px) translateY(-123px);}
+             .fly-in-text.hidden li:nth-child(18) {transform: translateX(9px) translateY(77px);}
+             .fly-in-text.hidden li:nth-child(19) {transform: translateX(-98px) translateY(-24px);}
+             .fly-in-text.hidden li:nth-child(20) {transform: translateX(34px) translateY(50px);}
+             .fly-in-text.hidden li:nth-child(21) {transform: translateX(-108px) translateY(-28px);}
+             .fly-in-text.hidden li:nth-child(22) {transform: translateX(56px) translateY(88px);}
+             .fly-in-text.hidden li:nth-child(23) {transform: translateX(-276px) translateY(-76px);}
+             
+             
+        </style>
+    </head>
        
-       </head>
     <body background="https://image.freepik.com/free-photo/wooden-deck-looking-out-to-a-snowy-landscape-against-a-bokeh-lights-background_1048-4374.jpg">
         <br/>
         <br/>
         <font face="Adobe Gothic std" font size="15"><b>
         <marquee> Welcome Ivan</marquee></b></font>
-
+        <br/>
+        
+        <ul class ="fly-in-text">
+            <li>1</li>
+            <li>1</li>
+            <li>7</li>
+            <li>4</li>
+            <li>3</li>
+            <li>4</li>
+            <li>3</li>
+            <li>1</li>
+            <li>6</li>
+            <li>P</li>
+            <li>R</li>
+            <li>O</li>
+            <li>J</li>
+            <li>E</li>
+            <li>C</li>
+            <li>T</li>
+            <br/>
+            <li>E</li>
+            <li>N</li>
+            <li>J</li>
+            <li>O</li>
+            <li>Y</li>
+        </ul>
+        <br/>
+        
         <a href="menu.html" class="btn btn-success">Home</a>
+        <br/>
+        
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.0/jquery.min.js"></script>
+    <script type="text/javascript">
+    
+    /*global $*/
+    
+    $(function() {
+    
+    setTimeout(function() {
+      $('.fly-in-text').removeClass('.hidden');
+      }, 500);
+      
+      })();
+    </script>
+    
+        
     </body>
       
         

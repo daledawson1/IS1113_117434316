@@ -32,8 +32,6 @@ a:hover{
     display: inline-block;
     border: 1px solid #aaa;
     border-bottom: 2px solid #aaa;
-    
-    
 }
 
 .cookie_banner {
@@ -47,6 +45,6 @@ a:hover{
 .cookie_banner .yurt {
     margin: 0 auto;
     width: 70%;
-    color: #0000;
+    color: #000;
     padding: 15px;
 }
