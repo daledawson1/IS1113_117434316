@@ -1,7 +1,7 @@
 .heading{
     text-align: center;
     color: red;
-    border: 2px solid black;
+    border: 2px solid white;
     
 }
 
@@ -19,5 +19,8 @@
 .dale{
     max-width:75%;
 }
-
+.section{
+    text-align: center;
+    color:white;
+}
 
