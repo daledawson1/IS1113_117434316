@@ -64,3 +64,44 @@ a:hover{
     text-decoration: none;
     padding: 15px;
 }
+
+.intro {
+    height: 100%;
+    width: 100%;
+    Margin: auto;
+    background: url(https://cdn-images-1.medium.com/max/2000/1*RPgpFSBsrFW-i7ckNVR6Aw.jpeg) no-repeat 50% 50%;
+    display: table;
+    top: 0;
+    background-size: cover;
+}
+.intro .inner {
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+    max-width: none;
+}
+.content {
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: center;
+}
+.content h1 {
+    font-family: 'raleway', sans-serif;
+    color: #F9F3F4;
+    text-shadow: 0px 0px 300px #000;
+    font-size: 500%;
+}
+.btn {
+    border-radius: 9px;
+    font-family: 'Oswald', sans-serif;
+    color: #fff;
+    font-size: 135%;
+    padding: 10px 20px;
+    border: solid #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.btn:hover {
+    color: #036A81;
+    border: solid #036A81 3px;
+}
