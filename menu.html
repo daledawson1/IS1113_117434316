@@ -1,9 +1,4 @@
-<?php
-if (isset($_GET['accept-cookies'])) {
-    setcookies('accept-cookies' , 'true', time() + 300000000);
-    header('location: ./');
-}
-?>
+
 
 <!DOCTYPE html>
 <html>
@@ -17,13 +12,11 @@ if (isset($_GET['accept-cookies'])) {
         <header>
            
         </header>
-        <?php
-        if (!isset($_COOKIE['accept-cookies'])) {
-        ?>
-        <div class="cookie_banner">
+       
+        <div id="cookie_banner">
             <div class="yurt">
                 <p>we use cookies on this website<a href="/cookies">the cookies we set</a></p>
-                <a href="?accept-cookies" class="button">Accept</a>
+                <a class="button" onclick="accept()">Accept</a>
             </div>
         </div>
         
