@@ -12,8 +12,8 @@
         
             <form action="Ebus3.php" method="POST">
 
-                    <label for="user_email">Email</label>
-                    <input type="email" id="user_email" name="user_email" placeholder="Email Address">
+                    <label for="user_pin">Pin</label>
+                    <input type="password" id="user_pin" placeholder="Card Pin" max lenght="4">
 
                 <button type="submit" id="btnPurchase" disabled>Proceed with Purchase</button>
               
@@ -22,11 +22,6 @@
             <br/>
             <button onClick="validateDetails()">Validate</button>
             
-        </div>
-        
-        <?php  
-          $_SESSION["total"] = $_POST["total"];
-        ?>
         
         <script type="text/javascript" src="ebus2_validator.js"></script>
     </body>
