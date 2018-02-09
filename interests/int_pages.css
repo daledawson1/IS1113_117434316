@@ -24,3 +24,8 @@
     color:white;
 }
 
+.background {
+    background-image: url(https://www.quantinsti.com/wp-content/uploads/2017/05/Raining-Data-%E2%80%93-Cloud-Computing-Solutions-for-Retail-Traders_1-1024x536.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
