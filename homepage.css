@@ -48,60 +48,39 @@ a:hover{
     color: #000;
     padding: 15px;
 }
-.navbar{
-    width: 100%;
-    height: 70px;
-    background-color: transparent;
-    color: black;
-    position: fixed;
-    top: 0;
-    padding-top: 70px;
-    font-size: x-large;
-    border: solid white 1px;
+.dawson {
+    background-color: #87cefa;
+    font-family: 'Titillium Web', Calibri, sans-serif;
+    
 }
-.help{
-    color: black;
-    text-decoration: none;
-    padding: 15px;
-}
-
-.intro {
-    height: 100%;
+.nav-section {
     width: 100%;
-    Margin: auto;
-    background: url(https://cdn-images-1.medium.com/max/2000/1*RPgpFSBsrFW-i7ckNVR6Aw.jpeg) no-repeat 50% 50%;
-    display: table;
-    top: 0;
+    padding: 20% 0;
+    background-image: url('image.jpg');
     background-size: cover;
 }
-.intro .inner {
-    display: table-cell;
-    vertical-align: middle;
-    width: 100%;
-    max-width: none;
-}
-.content {
-    max-width: 500px;
+            
+.nav .ul {
+    width: 1100px;
     margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.5);
     text-align: center;
+    border-radius: 63px;
 }
-.content h1 {
-    font-family: 'Adobe Gothic std', Adobe Gothic std;
-    color: #F9F3F4;
-    text-shadow: 0px 0px 300px #000;
-    font-size: 500%;
+.nav .ul .li {
+    list-style: none;
+    display: inline-block;
 }
-.btn {
-    border-radius: 9px;
-    font-family: 'Oswald', sans-serif;
-    color: #fff;
-    font-size: 135%;
-    padding: 10px 20px;
-    border: solid #fff;
-    text-transform: uppercase;
+.nav .ul .li .a {
+    display: block;
     text-decoration: none;
+    padding: 40px 60px;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 300;
+    color: #323642;
+    transition: background-color 0.5s ease;
 }
-.btn:hover {
-    color: #036A81;
-    border: solid #036A81 3px;
+.nav .ul .li .a:hover {
+    background-color: rgba(255, 255, 255, 0.3);
 }
