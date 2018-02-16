@@ -5,6 +5,7 @@
         
         <!--jQuery-->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script type="text/javascript" src="ebus2_validator.js"></script>
     </head>
     <body>
         <h4>Please enter your payment details</h4>
@@ -27,7 +28,9 @@
             <br/>
             <button onClick="validateDetails()">Validate</button>
             
-        
-        <script type="text/javascript" src="ebus2_validator.js"></script>
+        <?php
+            // Set session variables
+            $_SESSION["total"] = $_POST["total"];
+            ?>
     </body>
 </html>
