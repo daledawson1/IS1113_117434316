@@ -37,5 +37,7 @@ session_start()
             echo "Total: " . $_SESSION["total"] . ".";
             ?>
         </p>
+        </br>
+        <a href="../menu.html" class="btn btn-success">Menu</a>
     </body>
 </html>
