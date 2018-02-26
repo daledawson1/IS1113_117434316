@@ -1,6 +1,6 @@
 <?php
 // Start the session
-session_start();
+session_start()
 ?>
 <!DOCTYPE html>
 <html>
@@ -10,31 +10,54 @@ session_start();
         <!--jQuery-->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script type="text/javascript" src="ebus2_validator.js"></script>
+        
+        <link rel="stylesheet" href="ebusiness.css" type="text/css"/>
     </head>
+    
     <body>
-        <h4>Please enter your payment details</h4>
         
+        <h4 class="ebus2heading">Please enter your payment details</h4>
         
-            <form action="Ebus3.php" method="POST">
-                    <label for="user_name">Name:</label>
-                    <input type="name" id="user_name" placeholder="user name" max length="16"> 
-                    <br/>
-                    <label for="user_email">Email:</label>
-                    <input type="email" id="user_email" placeholder= "user email">
-                    <br/>
-                    <label for="user_pin">Pin:</label>
-                    <input type="password" id="user_pin" placeholder="Card Pin" max lenght="4">
-                    <br/>
-                    <button type="submit" id="btnPurchase" disabled>Proceed with Purchase</button>
-              
-            </form>
+        <form action="Ebus3.php" method="POST">
             
-            <br/>
-            <button onClick="validateDetails()">Validate</button>
+            <label for="user_name" class="label">
+                Name:
+                <input class="inputname" type="name" id="user_name" name="user_name" placeholder="JoeBloggs">
+                </br>
+                (Please don't put a space in name)
+            </label>
             
-        <?php
-            // Set session variables
-            $_SESSION["total"] = $_POST["total"];
-            ?>
+            </br>
+            
+            <label for="user_email" class="labelemail">
+                Email address:
+                <input class="inputemail" type="email" id="user_email" name="user_email" placeholder="joebloggs@ucc.ie">
+            </label>
+            
+            </br>
+
+            <label for="user_pin" class="labelpin">
+                PIN:
+                <input class="inputpin" type="password" id="user_pin" name="user_pin" placeholder="****" maxlength="4" pattern="\d{4}">
+                </br>
+                (Please only enter numbers for your PIN)
+            </label>
+            
+            </br>
+            </br>
+            
+            <button class="ProceedPurchase" type="submit" id="btnPurchase" disabled>Proceed with Purchase</button>
+        </form>
+        
+        </br>
+        
+        <button class="Validate" onClick="validateName()">Validate Details</button>
+    
+        <?php  
+        // Set session variables
+          $_SESSION["total"] = $_POST["total"];
+          
+        ?>
+        
     </body>
 </html>

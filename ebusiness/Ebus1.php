@@ -37,7 +37,7 @@
                 
             <label for="aws" class="gemma">
               <input type="radio" id="aws" name="product" onClick="disablebtnProceed()"/>
-              AWS @ $300
+              Amazon Web Services @ $300
             </label>
                 
             <br>

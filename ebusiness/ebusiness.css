@@ -111,3 +111,98 @@
     border: solid 2px blue;
     border-radius: 4px;
 }
+
+/* Ebus2 */
+.ProceedPurchase{
+    position: absolute;
+    top: 35%;
+    text-decoration: none;
+    color: green;
+    padding: 6px 6px;
+    border: solid 2px green;
+    border-radius: 4px;
+    text-align: center;
+}
+.ProceedPurchase:hover{
+    cursor: pointer;
+}
+
+.Validate{
+    position: absolute;
+    top: 30%;
+    text-decoration: none;
+    color: blue;
+    padding: 6px 6px;
+    border: solid 2px blue;
+    border-radius: 4px;
+    text-align: center;
+}
+.Validate:hover{
+    cursor: pointer;
+}
+.label {
+    position: absolute;
+    top: 10%;
+}
+
+.labelemail {
+    position: absolute;
+    top: 17%;
+}
+
+.labelpin {
+    position: absolute;
+    top: 22%;
+}
+
+.ebus2heading {
+    color: red;
+    font-size: large;
+}
+
+.inputname {
+    position: relative;
+    left: 36%;
+}
+
+.inputemail {
+    position: relative;
+    left: 10%;
+}
+.inputpin {
+    position: relative;
+    left: 35%;
+}
+
+/* Ebus3 */
+.rheading {
+    position: absolute;
+    left: 48%;
+    top: 10%;
+    color: red;
+    font-size: x-large;
+    font-style: oblique;
+}
+.username {
+    position: absolute;
+    left: 43%;
+    top: 20%;
+    color: black;
+    font-size: large;
+}
+
+.email {
+    position: absolute;
+    left: 43%;
+    top: 30%;
+    color: black;
+    font-size: large;
+}
+
+.total {
+    position: absolute;
+    left: 43%;
+    top: 40%;
+    color: black;
+    font-size: large;
+}

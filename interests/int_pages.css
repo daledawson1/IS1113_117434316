@@ -16,6 +16,23 @@
 #section3{
     background-color: rgb(0, 0, 0);
 }
+#section4 {
+    text-align: left;
+    color:white;
+    background-image:url(http://hackpla.net/wp-content/uploads/2013/03/cloudcomputing.jpg);
+    background-size: cover;
+    font-size: x-large;
+    background-position: center;
+}
+#section5{
+    color:black;
+    font-size: x-large;
+    background-image: url(http://3.bp.blogspot.com/-qWcUMv-zNjg/VdN_61fbtDI/AAAAAAAATFg/7pZaM7jUebo/s1600/cloud%2Bcomputing.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
 .dale{
     max-width:75%;
 }
