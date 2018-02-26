@@ -12,8 +12,8 @@
     </head>
     
     <body>
-        <div class="ebus_content">
-          <h1>Select a Product</h1>
+        <div class="econtent">
+          <h1 class="headingnumber1">Select a Product</h1>
               
           <br>
               
@@ -21,36 +21,37 @@
             
             
             <!-- Display radio buttons for cloud service options -->
-            <label for="salesforce" class="label1">
+            <label for="salesforce" class="dale">
               <input type="radio" id="salesforce" name="product" checked onClick="disablebtnProceed()"/>
               SalesForce @ $100
             </label>
                 
             <br>
             
-            <label for="cloud9" class="label2">
+            <label for="cloud9" class="dawson">
               <input type="radio" id="cloud9" name="product" onClick="disablebtnProceed()"/>
                Cloud9 @ $200
             </label>
                 
             <br>
                 
-            <label for="aws" class="label3">
+            <label for="aws" class="gemma">
               <input type="radio" id="aws" name="product" onClick="disablebtnProceed()"/>
               AWS @ $300
             </label>
                 
             <br>
                 
-            <label for="gmail" class="label4">
+            <label for="gmail" class="kevin">
               <input type="radio" id="gmail" name="product" onClick="disablebtnProceed()"/>
               Gmail @ $400
             </label>
+            <!-- Breakdown -->
+            </br>
+            <h1 class="headingnumber2">Breakdown</h1>
+            </br>
             
-            
-            
-            <!-- Breakdown of the price for the selected option -->
-            <label for="subtotal" class="label5">
+            <label for="subtotal" class="jason">
               Sub Total &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
               <input type="text" id="subtotal" name="subtotal" value="0.00" readonly/>
                </br>
@@ -58,7 +59,7 @@
             
              </br>
             
-            <label for="discount" class="label6">
+            <label for="discount" class="ryan">
               Discount @ 5% &nbsp;&nbsp;&nbsp; <input type="text" id="discount" name="discount" value="0.00" readonly/>
                </br>
               (- Discount)
@@ -67,7 +68,7 @@
              </br>
               </br>
             
-            <label for="vat" class="label7">
+            <label for="vat" class="ben">
                </br>
               VAT @ 10% &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="text" id="vat" name="vat" value="0.00" readonly/>
               </br>
@@ -79,7 +80,7 @@
              </br>
             
                 
-            <label for="total" class="label8">
+            <label for="total" class="nathan">
                </br>
                 </br>
               Total &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -90,10 +91,10 @@
       
              </br>
             
-            <div class="add_btn"> 
+            <div class="shoppingcart"> 
              </br>
               </br>
-              <button class="add_btn_style" type="submit" id="btnProceed" disabled>Add to Shopping Cart</button>
+              <button class="shoppingcartstyle" type="submit" id="btnProceed" disabled>Add to Shopping Cart</button>
                </br>
             </div>  
               
@@ -101,13 +102,13 @@
 
           <!-- button for calculating price breakdown of the selected option -->  
            </br>
-          <button class="cal_btn" onClick="calcSub()">Calculate Cost</button>
+          <button class="calcbutton" onClick="calcSub()">Calculate Cost</button>
              
           <br>
             
           <!-- button for clearing the selected options -->    
            </br>
-          <a class="clear_btn" role="button" href="Ebus1.php">Clear Choice</a>
+          <a class="cancelbutton" role="button" href="Ebus1.php">Clear Choice</a>
         </div>
     </body>
 </html>

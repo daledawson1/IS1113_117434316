@@ -1,5 +1,5 @@
-/* Ebusiness code page 1 */
-.ebus_content{
+/* Ebus 1 */
+.econtent {
     position: absolute;
     height: 100%;
     width: 100%;
@@ -7,65 +7,72 @@
     left: 0%;
 }
 
-.ebus_content h1{
+.econtent .headingnumber1{
     position: absolute;
     top: 10%;
     left: 42%;
+    color: red;
+}
+.econtent .headingnumber2{
+    position: absolute;
+    top: 37%;
+    left: 42%;
+    color: red;
 }
 
-.ebus_content .label1{
+.econtent .dale{
     position: absolute;
     top: 20%;
     left: 43%;
 }
 
-.ebus_content .label2{
+.econtent .dawson{
     position: absolute;
     top: 25%;
     left: 43%;
 }
 
-.ebus_content .label3{
+.econtent .gemma{
     position: absolute;
     top: 30%;
     left: 43%;
 }
 
-.ebus_content .label4{
+.econtent .kevin{
     position: absolute;
     top: 35%;
     left: 43%;
 }
 
-.ebus_content .label5{
+.econtent .jason{
     position: absolute;
     top: 50%;
     left: 43%;
 }
-.ebus_content .label6{
+.econtent .ryan{
     position: absolute;
     top: 55%;
     left: 43%;
 }
-.ebus_content .label7{
+.econtent .ben{
     position: absolute;
     top: 60%;
     left: 43%;
 }
 
-.ebus_content .label8{
+.econtent .nathan{
     position: absolute;
     top: 65%;
     left: 43%;
 }
 
-.add_btn{
+.shoppingcart{
     position: absolute;
     top: 75%;
     left: 45%;
 }
 
-.add_btn_style{
+.shoppingcartstyle{
    text-decoration: none;
     color: green;
     padding: 6px 6px;
@@ -73,11 +80,11 @@
     border-radius: 4px;
 }
 
-.add_btn_style:hover{
+.shoppingcartstyle:hover{
     cursor: pointer;
 }
 
-.cal_btn{
+.calcbutton{
     position: absolute;
     top: 90%;
     left: 43%;
@@ -89,11 +96,11 @@
     border-radius: 4px;
 }
 
-.cal_btn:hover{
+.calcbutton:hover{
     cursor: pointer;
 }
 
-.clear_btn{
+.cancelbutton{
     position: absolute;
     top: 90%;
     left: 52%;
