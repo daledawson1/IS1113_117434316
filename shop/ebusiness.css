@@ -272,3 +272,57 @@
     border-radius: 3px;
     font-size: 100%;
 }
+/*About Cloud page*/
+.cloudbackground {
+    background-image: url(https://wallpaperbrowse.com/media/images/Background-4.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+}
+.h1cc {
+    text-align: center;
+    font-family: fantasy;
+    font-size: xx-large;
+    color:red;
+}
+.definitioncc {
+    position: absolute;
+    top: 10%;
+    left:40%;
+    font-size: x-large;
+}
+.howitworks {
+    position: absolute;
+    top: 30%;
+    left:40%;
+    font-size: x-large;
+}
+.usescc {
+    font-size: x-large;
+}
+.bottompic {
+    position: absolute;
+    top: 85%;
+    left: 35%;
+}
+.menubuttoncc {
+    position: absolute;
+    background-color: green;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    font-size: 100%;
+}
+.nextbuttoncc {
+    position: absolute;
+    left: 5%;
+    background-color: grey;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    font-size: 100%;
+}
