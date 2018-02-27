@@ -206,3 +206,69 @@
     color: black;
     font-size: large;
 }
+
+/*Shophomepage */
+.bodytagsh {
+    background-image: url(http://downloads.techweekeurope.co.uk/wp-content/uploads/2010/09/SugarSync-logo.png);
+    background-repeat: no-repeat;
+    background-position: top;
+}
+.aboutus {
+    font-size: x-large;
+    color: red;
+    position: absolute;
+    top: 40%;
+    left: 35%;
+}
+.ausection {
+    position: absolute;
+    top: 48%;
+    left: 35%;
+    font-family: cursive
+}
+.servicesprovided {
+    font-size: x-large;
+    color: red;
+    position: absolute;
+    top: 60%;
+    left: 35%;
+}
+.servicepara {
+    position: absolute;
+    top: 68%;
+    left: 35%;
+    font-family: cursive
+}
+.clogo{
+    position: absolute;
+    top: 40%;
+    left: 0%;
+}
+
+.clogo img{
+    height: 32%;
+    width: 32%;
+}
+.menubutton {
+    position: absolute;
+    top: 90%;
+    background-color: green;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    font-size: 100%;
+}
+.nextbutton {
+    position: absolute;
+    top: 90%;
+    left: 5%;
+    background-color: grey;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    font-size: 100%;
+}
