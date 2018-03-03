@@ -326,3 +326,47 @@
     border-radius: 3px;
     font-size: 100%;
 }
+/*product details page*/
+.productheading {
+    font: bold;
+    font-size: xx-large;
+    position: absolute;
+    top:2%;
+    left: 40%;
+    color: red;
+}
+.productbackground {
+    background-image: url(https://image.freepik.com/free-vector/abstract-design-background_1048-6726.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+.cloudheading {
+    position: absolute;
+    top: 10%;
+    left:5%;
+    font-size: x-large;
+}
+.cloudpara {
+    position: absolute;
+    top: 15%;
+    left: 5%;
+    max-width: 50%
+}
+.cloudphoto {
+    position: absolute;
+    left: 60%;
+    top: 10%;
+}
+.cloudlink {
+    position: absolute;
+    top: 42%;
+    left: 5%;
+    background-color: blue;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    font-size: 100%;
+}
