@@ -355,14 +355,128 @@
 }
 .cloudphoto {
     position: absolute;
-    left: 60%;
+    left: 70%;
     top: 10%;
 }
 .cloudlink {
     position: absolute;
-    top: 42%;
+    top: 35%;
     left: 5%;
     background-color: blue;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    font-size: 100%;
+}
+.salesheading {
+ position: absolute;
+ top: 39%;
+ left: 5%;
+ font-size: x-large;
+ font: bold;
+}
+.salespara {
+    position: absolute;
+    top: 44%;
+    left: 5%;
+    max-width: 50%
+}
+.saleslink {
+    position: absolute;
+    top: 61%;
+    left: 5%;
+    background-color: blue;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    font-size: 100%;
+}
+.salesphoto {
+    position: absolute;
+    left: 70%;
+    top: 41%;
+}
+.awsheading {
+ position: absolute;
+ top: 65%;
+ left: 5%;
+ font-size: x-large;
+ font: bold;
+}
+.awspara {
+    position: absolute;
+    top: 70%;
+    left: 5%;
+    max-width: 50%
+}
+.awslink {
+    position: absolute;
+    top: 84%;
+    left: 5%;
+    background-color: blue;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    font-size: 100%;
+}
+.awsphoto {
+    position: absolute;
+    left: 70%;
+    top: 72%;
+}
+.gmailheading {
+ position: absolute;
+ top: 88%;
+ left: 5%;
+ font-size: x-large;
+ font: bold;
+}
+.gmailpara {
+    position: absolute;
+    top: 93%;
+    left: 5%;
+    max-width: 50%
+}
+.gmaillink {
+    position: absolute;
+    top: 110%;
+    left: 5%;
+    background-color: blue;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    font-size: 100%;
+}
+.gmailphoto {
+    position: absolute;
+    left: 70%;
+    top: 90%;
+}
+.ebusbutton {
+    position: absolute;
+    top: 120%;
+    left: 50%;
+    background-color: gold;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    font-size: 100%;
+}
+.menubutton2 {
+    position: absolute;
+    top: 120%;
+    left: 45%;
+    background-color: green;
     color: white;
     text-align: center;
     text-decoration: none;
