@@ -38,7 +38,7 @@ session_start()
             ?>
         </p>
         </br>
-        <a href="../menu.html" class="btn btn-success">Menu</a>
+        <a href="../menu.html" class="menubtn">Menu</a>
         
     </body>
 </html>
