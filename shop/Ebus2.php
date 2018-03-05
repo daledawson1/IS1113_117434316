@@ -21,10 +21,10 @@ session_start()
         <form action="Ebus3.php" method="POST">
             
             <label for="user_name" class="label">
-                Name:
+                Username:
                 <input class="inputname" type="name" id="user_name" name="user_name" placeholder="JoeBloggs">
                 </br>
-                (Please don't put a space in name)
+                (Please don't put a space in Username)
             </label>
             
             </br>

@@ -1,29 +1,75 @@
 .mainheading{
-    text-align: center;
     color: Red;
+    position: absolute;
+    top: 5%;
+    left: 38%;
 }
 
-a{ 
-   text-decoration: none;
-   color: black;
-   border: 1px solid black;
-   
+.profilepic {
+    position: absolute;
+    top: 30%; 
+    left: 40%;
 }
-
-a:hover{
- color:Blue;
+.profilepic img {
+       border-radius: 50%;
+       height: 300px;
+       width: 300px;
 }
-
-
-.dale{
-    max-width:75%;
+.aboutme {
+    position: absolute; 
+    top: 10%;
+    left: 43%;
+    color: red;
 }
-.cv1background {
-    background-image: url(http://www.qygjxz.com/data/out/18/4905019-background-pictures.jpg);
+.aboutpara {
+    position: absolute;
+    top: 15%;
+    left: 5%;
+}
+.details {
+    position: absolute;
+    top: 30%;
+    left: 5%;
+}
+.personalas {
+    position: absolute;
+    top: 70%;
+    left: 41%;
+    color: red;
+}
+.listclass {
+    position: absolute;
+    top: 74%;
+    left: 5%;
+}
+.homebutton {
+    position: absolute;
+    top: 110%;
+    left: 44%;
+    background-color: green;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    font-size: 100%;
+}
+.nextbutton {
+    position: absolute;
+    top: 110%;
+    left: 50%;
+    background-color: grey;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    font-size: 100%;
+}
+.photo {
+    background-image: url(http://3.bp.blogspot.com/-jSb2xuGaeWs/T6EtJzqAC9I/AAAAAAAAAa4/aNvmQf34kOc/s640/Notebook-Background.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
-
-
   
 

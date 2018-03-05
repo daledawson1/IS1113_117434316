@@ -25,7 +25,7 @@ function validateEmail(){
     email = document.getElementById("user_email").value;
     
     if (email == ""){
-        alert("please enter an email.")
+        alert("please enter an email.");
     }
     else if (validateInputEmail(email) == false){
         alert("Please enter a valid Email ID");

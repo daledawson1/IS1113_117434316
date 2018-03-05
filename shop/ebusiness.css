@@ -312,10 +312,12 @@
 }
 .usescc {
     font-size: x-large;
+    position: absolute;
+    top: 50%;
 }
 .bottompic {
     position: absolute;
-    top: 90%;
+    top: 80%;
     left: 35%;
 }
 .menubuttoncc {
@@ -327,6 +329,7 @@
     padding: 5px 10px;
     border-radius: 3px;
     font-size: 100%;
+    top: 95%;
 }
 .nextbuttoncc {
     position: absolute;
@@ -338,6 +341,7 @@
     padding: 5px 10px;
     border-radius: 3px;
     font-size: 100%;
+    top: 95%;
 }
 /*product details page*/
 .productheading {
