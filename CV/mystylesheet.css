@@ -1,7 +1,6 @@
 .mainheading{
     text-align: center;
     color: Red;
-    border: 2px solid black;
 }
 
 a{ 
@@ -19,7 +18,11 @@ a:hover{
 .dale{
     max-width:75%;
 }
-
+.cv1background {
+    background-image: url(http://www.qygjxz.com/data/out/18/4905019-background-pictures.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 
 
   

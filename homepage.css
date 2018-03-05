@@ -9,10 +9,13 @@
     border: 1px solid #aaa;
     border-bottom: 2px solid #aaa;
 }
+.button:hover{
+    cursor: pointer;
+}
 /* design for the cookie banner */
 #cookie_banner {
     display: none;
-    background:#333;
+    background: white;
     position:fixed;
     bottom: 0;
     left: 0;
@@ -54,7 +57,7 @@
 .nav .ul .li .a {
     display: block;
     text-decoration: none;
-    padding: 40px 60px;
+    padding: 40px 50px;
     font-size: 20px;
     text-transform: uppercase;
     font-weight: 300;
@@ -87,7 +90,7 @@
 }
 .content h1 {
     font-family: 'Raleway', sans-serif;
-    color: white;
+    color: black;
     text-shadow: 0px 0px 300px #000;
     font-size: 500%;
 }
@@ -103,10 +106,14 @@
     text-decoration: none;
 }
 .btn:hover {
-    color: #036A81;
-    border: solid #036A81;
+    color: blue;
+    border: solid blue;
 }
 
 .menuback {
     background-image: url(http://mojmalnews.com/wp-content/uploads/2017/08/beautiful-nature-lake-wallpaper-9-desktop-backgrounds-nature-lakes-httpwhatstrendingonline-comdesktop-backgrounds-beautiful-landscapesbeautiful-wallpaperhd.jpg);
+}
+/*marquee*/
+.mqhome {
+    color: black;
 }
