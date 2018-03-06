@@ -68,7 +68,7 @@
 }
 .photo {
     background-image: url(http://3.bp.blogspot.com/-jSb2xuGaeWs/T6EtJzqAC9I/AAAAAAAAAa4/aNvmQf34kOc/s640/Notebook-Background.jpg);
-    background-size:130%;
+    background-size: cover;
     background-repeat: no-repeat;
 }
 .primaryschool {
@@ -163,6 +163,122 @@
     border-radius: 3px;
     font-size: 100%;
 }
-
-  
-
+.photo2 {
+    background-image: url(http://3.bp.blogspot.com/-jSb2xuGaeWs/T6EtJzqAC9I/AAAAAAAAAa4/aNvmQf34kOc/s640/Notebook-Background.jpg);
+    background-size:130%;
+    background-repeat: no-repeat;
+}
+.job1name {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    font-size: large;
+}
+.job1title {
+    position: absolute;
+    top: 15%;
+    left: 10%;
+    font-size: large;
+}
+.job1year {
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    font-size: large;
+}
+.job1description {
+    position: absolute;
+    top: 25%;
+    left: 10%;
+    font-size: large;
+    max-width: 50%;
+}
+.job2name {
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    font-size: large;
+}
+.job2title {
+    position: absolute;
+    top: 45%;
+    left: 10%;
+    font-size: large;
+}
+.job2year {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    font-size: large;
+}
+.job2des {
+    position: absolute;
+    top: 55%;
+    left: 10%;
+    font-size: large;
+    max-width: 50%
+}
+.job3name {
+    position: absolute;
+    top: 70%;
+    left: 10%;
+    font-size: large;
+}
+.job3title {
+    position: absolute;
+    top: 75%;
+    left: 10%;
+    font-size: large;
+}
+.job3year {
+    position: absolute;
+    top: 80%;
+    left: 10%;
+    font-size: large;
+}
+.job3des {
+    position: absolute;
+    top: 85%;
+    left: 10%;
+    font-size: large;
+    max-width: 50%;
+}
+.backbtn3 {
+    position: absolute;
+    top: 110%;
+    left: 20%;
+    background-color: grey;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    font-size: 100%;
+}
+.menubtn3 {
+    position: absolute;
+    top: 110%;
+    left: 25%;
+    background-color: green;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    font-size: 100%;
+}
+.faberphoto {
+    position: absolute;
+    top: 15%;
+    left: 70%;
+}
+.tjsphoto {
+    position: absolute;
+    top: 40%;
+    left: 70%;
+}
+.josephsphoto {
+    position: absolute;
+    top: 70%;
+    left: 70%;
+}
