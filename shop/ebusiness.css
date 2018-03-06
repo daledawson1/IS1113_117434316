@@ -218,6 +218,25 @@
     border-radius: 3px;
     font-size: 100%;
 }
+.thankyou {
+    position: absolute;
+    left: 5%;
+    top: 50%;
+    font-size: large;
+    max-width: 90%
+    
+}
+.purchase {
+    position: absolute;
+    left:45%;
+    top: 45%;
+    color: red;
+}
+.compphoto {
+    position: absolute;
+    top: 20%;
+    left: 65%;
+}
 
 
 /*Shophomepage */

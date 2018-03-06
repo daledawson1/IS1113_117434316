@@ -9,7 +9,7 @@ function validateName(){
     if (name == ""){
         alert("Please enter a name.");
     }
-    else if (!name.match(/^[a-zA-Z]+$/)){
+    else if (!name.match(/^[a-zA-Z_ ]+$/)){
         alert('Only letters are allowed in a name.');
     }
     else{
