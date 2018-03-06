@@ -32,7 +32,32 @@
     font-size: 20px;
 }
 .cookieimage {
-    background-image: url(images/cookie.jpg);
+    background-image: url(https://lh3.googleusercontent.com/C_hpLeITQh_LSs6VF0PCsRbHqJdJm8QR3UgO5jDZ2fGBHgWw1J_KjFcSFPjPB1jCq0Hp=w300);
+    background-repeat: no-repeat;
+    background-size: 40%;
+}
+.dale { 
+    max-width: 60%;
+}
+.cookiebtn {
+    
+    background-color: green;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    font-size: 100%;
+}
+.cookieimg {
+    position: absolute;
+    top: 15%;
+    left: 70%;
+}
+.humour {
+    position: absolute;
+    top: 60%;
+    left: 75%;
 }
 
  /* design for the nav bar */   
