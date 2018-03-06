@@ -112,6 +112,8 @@
 
 .menuback {
     background-image: url(http://mojmalnews.com/wp-content/uploads/2017/08/beautiful-nature-lake-wallpaper-9-desktop-backgrounds-nature-lakes-httpwhatstrendingonline-comdesktop-backgrounds-beautiful-landscapesbeautiful-wallpaperhd.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 /*marquee*/
 .mqhome {

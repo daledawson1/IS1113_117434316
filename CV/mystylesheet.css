@@ -68,8 +68,101 @@
 }
 .photo {
     background-image: url(http://3.bp.blogspot.com/-jSb2xuGaeWs/T6EtJzqAC9I/AAAAAAAAAa4/aNvmQf34kOc/s640/Notebook-Background.jpg);
-    background-size: cover;
+    background-size:130%;
     background-repeat: no-repeat;
 }
+.primaryschool {
+    position: absolute;
+    top: 15%;
+    left: 10%;
+    font-size: x-large;
+}
+.psyear {
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    font-size: x-large;
+}
+.primaryphoto {
+    position: absolute;
+    top: 15%;
+    left: 40%;
+}
+.secondaryschool{
+    position: absolute;
+    top: 35%;
+    left: 10%;
+    font-size: x-large;
+}
+.secondlevel {
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    font-size: x-large;
+}
+.ssyear {
+    position: absolute;
+    top: 45%;
+    left: 10%;
+    font-size: x-large;
+}
+.sstable {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+}
+.cancphoto {
+    position: absolute;
+    top: 50%;
+    left: 40%;
+}
+.college {
+    position: absolute;
+    top: 110%;
+    left: 10%;
+    font-size: x-large;
+}
+.ccourse {
+    position: absolute;
+    top: 115%;
+    left: 10%;
+    font-size: x-large;
+}
+.collegeyear {
+    position: absolute;
+    top: 120%;
+    left: 10%;
+    font-size: x-large;
+}
+.collegephoto{
+    position: absolute;
+    top: 110%;
+    left: 40%;
+}
+.backbtn {
+    position: absolute;
+    top: 130%;
+    left: 15%;
+    background-color: grey;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    font-size: 100%;
+}
+.nextbtn {
+    position: absolute;
+    top: 130%;
+    left: 20%;
+    background-color: grey;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    font-size: 100%;
+}
+
   
 
